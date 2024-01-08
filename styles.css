@@ -1,0 +1,258 @@
+.app {
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    background-color: #f8f9fd;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    height: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  input[type="email"] {
+    height: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  input[type="number"] {
+    height: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  
+  input[type="submit"] {
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    background: #01d28e;
+    border: 1px solid #01d28e;
+    color: #fff;
+    padding: 10px 20px;
+  }
+
+  input[type="reset"] {
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    background: #01d28e;
+    border: 1px solid #01d28e;
+    color: #fff;
+    padding: 10px 20px;
+  }
+
+  input[type="reset"]:hover {
+    background: #6cf0c2;
+  }
+  
+  input[type="submit"]:hover {
+    background: #6cf0c2;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .login-form {
+    background-color: white;
+    padding: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 500px; 
+    height: 500px; 
+  }
+  
+  .list-container {
+    display: flex;
+  }
+  .text{
+    color: red;
+  }
+  .wallet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .number{
+    color: green;
+    text-decoration: underline;
+    font-size: 1.5rem;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .title {
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: 900;
+    margin-top: 20px;
+  }
+
+  .description {
+    font-size: 15px;
+    margin-bottom: 0px;
+    font-family: serif;
+    padding: 0%;
+    margin: 0%;
+    margin-top: 5%;
+    font-weight: 600;
+    color:rgb(60, 58, 58);
+  }
+  .linkDecor{
+    margin-left: 2%;
+    color: red;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 10px;
+  }
+
+  .game-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+    cursor: pointer;
+  }
+  
+  .game-card {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    max-width: 200px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .game-card img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .game-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .link {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Use the default color */
+  }
+
+  .AnkSelectNumberCard{
+
+    margin: 10px;
+    /* padding: 10px; */
+    border: 1px solid #ccc;
+    max-width: 200px;
+    text-align: center;
+    cursor: pointer;
+    width: 200px;
+    background-color: gray;
+    border-radius: 5%;
+    height: 50px;
+
+  }
+
+  .AnkCardList{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+
+  }
+
+  .hrStyle{
+    height: '2px';
+    width: '100%';
+    background: '#333';
+    border: 'none';
+    margin: '10px 0'; 
+  };
+
+  .selectorsText{
+    display: flex;
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: 900;
+    margin-top: 20px;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .ankbuttonpair{
+
+    cursor: pointer;
+    font-size: 15px;
+    background: #01d28e;
+    border: 1px solid #01d28e;
+    color: white;
+    padding: 10px 80px;
+    border-radius: 10%;
+    font-weight: 700;
+    font-size: large;
+
+  }
+
+  /* TablePage.css */
+
+.custom-table {
+  border-collapse: collapse;
+  width: 100%;
+  padding-right: 5rem;
+}
+
+.custom-table th,
+.custom-table td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+@media (max-width: 768px) {
+  .dashboard p, .head, .log{
+    font-size: 0.8rem;
+  }
+  .button{
+    font-size: 0.8rem;
+  }
+  .chartType{
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 400px) {
+  
+  .login-form{
+    width: 200px;
+  }
+
+  .dashboard p, .head, .log{
+    font-size: 0.5rem;
+  }
+  .button{
+    font-size: 0.5rem;
+  }
+  .chartType{
+    font-size: 0.5rem;
+  }
+  .bg{
+    background-color: orange;
+  }
+  .game-list{
+    display: flex;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
